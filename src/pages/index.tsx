@@ -20,7 +20,7 @@ const IndexPage = () => (
   <div style={{
     'width': '60%',
     'margin': '0 auto',
-    'color' : 'white',
+    'color' : '#ececec',
 
   }}>
   <h1 style={{
@@ -72,13 +72,23 @@ const IndexPage = () => (
   </p>
   <hr/>
   <h2>Media Spotlight</h2>
-  <p><a href="https://www.comp.nus.edu.sg/news/3137-2019-bug-bounty/">NUS Bug Bounty Challenge 2019</a></p>
+  <p>
+    <li><a href="https://www.comp.nus.edu.sg/news/3137-2019-bug-bounty/" style={{
+      'color' : '#ececec',
+      }}>NUS Bug Bounty Challenge 2019</a></li>
+  </p>
   <hr/>
   <h2>Contact Me</h2>
   <p>
-    <li><a href="https://www.linkedin.com/in/koh-zheng-wei/">Linkedin</a></li>
-    <li><a href="mailto: contact@kohzw.com">E-Mail</a></li>
-    <li><a href="https://github.com/zenious">Github</a></li></p>
+    <li><a href="https://www.linkedin.com/in/koh-zheng-wei/" style={{
+        'color' : '#ececec',
+        }}>Linkedin</a></li>
+    <li><a href="mailto: contact@kohzw.com" style={{
+        'color' : '#ececec',
+        }}>E-Mail</a></li>
+    <li><a href="https://github.com/zenious" style={{
+        'color' : '#ececec',
+        }}>Github</a></li></p>
   <hr/>
   </div>
   </body>
@@ -93,7 +103,9 @@ const IndexPage = () => (
       'textAlign': 'right'
     }}>   © {new Date().getFullYear()}, Built with
     {` `}
-    <a href="https://www.gatsbyjs.org">Gatsby</a>
+    <a href="https://www.gatsbyjs.org" style={{
+        'color' : '#ececec',
+        }}>Gatsby</a>
  </div>
  </footer>
  </>
