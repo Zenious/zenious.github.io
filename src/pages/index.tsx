@@ -18,8 +18,9 @@ const IndexPage = () => (
     'padding': '0.25rem'
   }}>
   <div style={{
-    'width': '60%',
+    'maxWidth': '1600px',
     'margin': '0 auto',
+    'padding': "0 5%",
     'color' : '#ececec',
 
   }}>
