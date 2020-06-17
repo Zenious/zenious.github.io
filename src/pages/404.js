@@ -19,7 +19,7 @@ const NotFoundPage = () => (
         <img src={Status404Logo} />
         <h2>Return to <a href="/" style={{
         'color' : '#ececec',
-        }}>Homepage </a></h2>
+        }}>Hello World </a></h2>
     </div>
     </div>
 )

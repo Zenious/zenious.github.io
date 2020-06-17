@@ -7,5 +7,6 @@ const typography = new Typography({
     "monospace",
   ],
   bodyFontFamily: ["Cousine", "monospace"],
+  
 })
 export default typography
