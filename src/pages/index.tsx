@@ -63,7 +63,7 @@ const IndexPage = () => (
 
         <h2>Hi There</h2>
         <p>
-          I'm Zheng Wei, an undergraduate student studying Computer Science in
+          I'm Zheng Wei, graduated in Bachelor of Computing (Computer Science) at
           NUS, Singapore. <br />I have strong interest in DevOps & Security
           related topics. Feel free to contact me!
         </p>
@@ -88,6 +88,14 @@ const IndexPage = () => (
         <hr />
         <h2>Work Experience</h2>
         <p>* For most updated information, refer to LinkedIn</p>
+        <p>
+          M1 Limited <br /> Jan'21 - Present <br />{" "}
+          System Analyst
+        </p>
+        <p>
+          National University of Singapore <br /> Aug'20 - Dec'20 <br />{" "}
+          Undergraduate Teaching Assistant for CS3203, CS3103
+        </p>
         <p>
           NodeFlair <br /> Oct'19 - Dec'19 <br /> Software Engineering Intern
         </p>
